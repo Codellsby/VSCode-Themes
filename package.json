@@ -1,0 +1,28 @@
+{
+  "name": "codellsby-vscode-themedark",
+  "displayName": "codellsby-dark-theme",
+  "description": "codellsby-dark-theme",
+  "version": "0.0.1",
+  "publisher": "codellsby",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "theme",
+    "vscode",
+    "codellsby"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Codellsby-VSdark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Codellsby-VSdark-color-theme.json"
+      }
+    ]
+  }
+}
